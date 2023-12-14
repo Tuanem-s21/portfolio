@@ -1,0 +1,39 @@
+#back{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 30px;
+    left: 30px;
+    /* transform: rotate(-90deg); */
+}
+
+#back .on{
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+#back .on a{
+    width: 100%;
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: black;
+    filter: drop-shadow(3px 3px 15px #6f00ff41);
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#back .on:hover a{
+    filter: drop-shadow(3px 3px 15px #6f00ffc0);
+    transition: all 0.3s ease-in-out;
+}
